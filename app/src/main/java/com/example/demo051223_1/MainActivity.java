@@ -14,5 +14,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
     }
     public void hello(View view) {
+        Button btn;
+        btn = findViewById(R.id.btn1);
+        btn.setText("Oh, yea, I’ve been clicked!");
     }
 }
